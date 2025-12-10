@@ -1,0 +1,52 @@
+.dashboard-container {
+  background: #f7f9fc;
+  min-height: 100vh;
+}
+
+.filter-card {
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(16,24,40,0.06);
+  padding: 20px;
+}
+
+.office-table th {
+  font-weight: 600;
+  background: #eef2f7 !important;
+}
+
+.table-row:hover {
+  background: #e6f0ff !important;
+}
+
+.details-card {
+  max-width: 600px;
+  margin: auto;
+}
+
+.details-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Card utility for main content cards */
+.card-custom {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(16,24,40,0.06);
+}
+
+/* Filter controls spacing */
+.filter-card .form-select,
+.filter-card .btn {
+  margin-bottom: 12px;
+}
+
+/* Full width, centered icon buttons inside filter */
+.filter-card .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
